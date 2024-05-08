@@ -14,7 +14,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <View style={styles.container}>
-        <Stack.Navigator initialRouteName="Welcome">
+        <Stack.Navigator initialRouteName="Home">
           <Stack.Screen
             name="Welcome"
             component={Welcome}
@@ -35,7 +35,7 @@ export default function App() {
             component={Signup}
             options={{ headerShown: false }}
           />
-          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Home" component={Home} options={{ headerShown: false }}/>
         </Stack.Navigator>
       </View>
     </NavigationContainer>
