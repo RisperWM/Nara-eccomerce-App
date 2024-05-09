@@ -29,7 +29,7 @@ const SearchScreen = () => {
 
   const renderProductItem = ({ item }) => (
     <TouchableOpacity style={styles.card}>
-      <Image style={styles.image} source={{ uri: item.imageUrl }} />
+      <Image style={styles.image} source={item.imageUrl} /> 
       <View style={styles.cardContent}>
         <Text style={styles.title}>{item.description}</Text>
         <Text style={styles.price}>{item.price}</Text>
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingHorizontal: 10,
     marginBottom: 10,
-    backgroundColor:"#dedede"
+    backgroundColor:"#eef0f2"
   },
   input: {
     flex: 1,

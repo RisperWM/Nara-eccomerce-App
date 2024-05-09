@@ -1,7 +1,7 @@
 const products = [
   {
     id: "1",
-    imageUrl: "assets/products/27Little.jpeg",
+    imageUrl: require("../assets/products/27Little.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -9,7 +9,7 @@ const products = [
   },
   {
     id: "2",
-    imageUrl: "assets/products/1950s.jpeg",
+    imageUrl: require("../assets/products/1950s.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -17,7 +17,7 @@ const products = [
   },
   {
     id: "3",
-    imageUrl: "assets/products/2024New80kg.jpeg",
+    imageUrl: require("../assets/products/2024New80kg.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "sweater",
@@ -25,7 +25,7 @@ const products = [
   },
   {
     id: "4",
-    imageUrl: "assets/products/AIOPESONe.jpeg",
+    imageUrl: require("../assets/products/AIOPESONe.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -33,7 +33,7 @@ const products = [
   },
   {
     id: "5",
-    imageUrl: "assets/products/Alfiudad.jpeg",
+    imageUrl: require("../assets/products/Alfiudad.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -41,7 +41,7 @@ const products = [
   },
   {
     id: "6",
-    imageUrl: "assets/products/ALineSatin.jpeg",
+    imageUrl: require("../assets/products/ALineSatin.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: "7",
-    imageUrl: "assets/products/AntiWrinkleXXL.jpeg",
+    imageUrl: require("../assets/products/AntiWrinkleXXL.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -57,7 +57,7 @@ const products = [
   },
   {
     id: "8",
-    imageUrl: "assets/products/AOYOCotton.jpeg",
+    imageUrl: require("../assets/products/AOYOCotton.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -65,7 +65,7 @@ const products = [
   },
   {
     id: "9",
-    imageUrl: "assets/products/Ariats.jpeg",
+    imageUrl: require("../assets/products/Ariats.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -73,7 +73,7 @@ const products = [
   },
   {
     id: "10",
-    imageUrl: "assets/products/ArmyGreenBlackHigh.jpeg",
+    imageUrl: require("../assets/products/ArmyGreenBlackHigh.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -81,7 +81,7 @@ const products = [
   },
   {
     id: "11",
-    imageUrl: "assets/products/ArmygreenKhaki.jpeg",
+    imageUrl: require("../assets/products/ArmygreenKhaki.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -89,7 +89,7 @@ const products = [
   },
   {
     id: "12",
-    imageUrl: "assets/products/AutumnJujubekg.jpeg",
+    imageUrl: require("../assets/products/AutumnJujubekg.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "jacket",
@@ -97,7 +97,7 @@ const products = [
   },
   {
     id: "13",
-    imageUrl: "assets/products/BabyonlineWomen.jpeg",
+    imageUrl: require("../assets/products/BabyonlineWomen.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -105,7 +105,7 @@ const products = [
   },
   {
     id: "14",
-    imageUrl: "assets/products/Balmain.jpeg",
+    imageUrl: require("../assets/products/Balmain.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -113,7 +113,7 @@ const products = [
   },
   {
     id: "15",
-    imageUrl: "assets/products/BambooButton.jpeg",
+    imageUrl: require("../assets/products/BambooButton.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -121,7 +121,7 @@ const products = [
   },
   {
     id: "16",
-    imageUrl: "assets/products/Beautifulfashio.jpeg",
+    imageUrl: require("../assets/products/Beautifulfashio.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -129,7 +129,7 @@ const products = [
   },
   {
     id: "17",
-    imageUrl: "assets/products/Beautifulfashionlife.jpeg",
+    imageUrl: require("../assets/products/Beautifulfashionlife.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -137,7 +137,7 @@ const products = [
   },
   {
     id: "18",
-    imageUrl: "assets/products/BellePoque.jpeg",
+    imageUrl: require("../assets/products/BellePoque.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -145,7 +145,7 @@ const products = [
   },
   {
     id: "19",
-    imageUrl: "assets/products/BestAfrican.jpeg",
+    imageUrl: require("../assets/products/BestAfrican.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -153,7 +153,7 @@ const products = [
   },
   {
     id: "20",
-    imageUrl: "assets/products/Black1950s.jpeg",
+    imageUrl: require("../assets/products/Black1950s.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -161,7 +161,7 @@ const products = [
   },
   {
     id: "21",
-    imageUrl: "assets/products/BlacklDress.jpeg",
+    imageUrl: require("../assets/products/BlacklDress.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -169,7 +169,7 @@ const products = [
   },
   {
     id: "22",
-    imageUrl: "assets/products/Blaklader.jpeg",
+    imageUrl: require("../assets/products/Blaklader.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -177,7 +177,7 @@ const products = [
   },
   {
     id: "23",
-    imageUrl: "assets/products/Blakladersrd.jpeg",
+    imageUrl: require("../assets/products/Blakladersrd.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -186,7 +186,7 @@ const products = [
 
   {
     id: "24",
-    imageUrl: "assets/products/BlakladerW44.jpeg",
+    imageUrl: require("../assets/products/BlakladerW44.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -194,7 +194,7 @@ const products = [
   },
   {
     id: "25",
-    imageUrl: "assets/products/BlueGingham.jpeg",
+    imageUrl: require("../assets/products/BlueGingham.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -202,7 +202,7 @@ const products = [
   },
   {
     id: "26",
-    imageUrl: "assets/products/BonnieJean.jpeg",
+    imageUrl: require("../assets/products/BonnieJean.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -210,7 +210,7 @@ const products = [
   },
   {
     id: "27",
-    imageUrl: "assets/products/BurberyCapSleeve.jpeg",
+    imageUrl: require("../assets/products/BurberyCapSleeve.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -219,7 +219,7 @@ const products = [
 
   {
     id: "28",
-    imageUrl: "assets/products/ButtonCasual.jpeg",
+    imageUrl: require("../assets/products/ButtonCasual.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -227,7 +227,7 @@ const products = [
   },
   {
     id: "29",
-    imageUrl: "assets/products/Camisade.jpeg",
+    imageUrl: require("../assets/products/Camisade.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "shirt",
@@ -235,7 +235,7 @@ const products = [
   },
   {
     id: "30",
-    imageUrl: "assets/products/Cargo.jpeg",
+    imageUrl: require("../assets/products/Cargo.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "short",
@@ -243,7 +243,7 @@ const products = [
   },
   {
     id: "31",
-    imageUrl: "assets/products/CashmereNavy.jpeg",
+    imageUrl: require("../assets/products/CashmereNavy.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "coat",
@@ -251,7 +251,7 @@ const products = [
   },
   {
     id: "32",
-    imageUrl: "assets/products/Cayenne.jpeg",
+    imageUrl: require("../assets/products/Cayenne.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -259,7 +259,7 @@ const products = [
   },
   {
     id: "33",
-    imageUrl: "assets/products/ChengzhongSun.jpeg",
+    imageUrl: require("../assets/products/ChengzhongSun.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -267,7 +267,7 @@ const products = [
   },
   {
     id: "34",
-    imageUrl: "assets/products/ChicBurgundy.jpeg",
+    imageUrl: require("../assets/products/ChicBurgundy.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -276,7 +276,7 @@ const products = [
 
   {
     id: "35",
-    imageUrl: "assets/products/chouyatou.jpeg",
+    imageUrl: require("../assets/products/chouyatou.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -284,15 +284,15 @@ const products = [
   },
   {
     id: "36",
-    imageUrl: "assets/products/clothesdf.jpeg",
+    imageUrl: require("../assets/products/clothesdf.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
-    prodType: "mem",
+    prodType: "short",
     price: "$430",
   },
   {
     id: "37",
-    imageUrl: "assets/products/ClothesWHITEM.jpeg",
+    imageUrl: require("../assets/products/ClothesWHITEM.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "sweater",
@@ -300,7 +300,7 @@ const products = [
   },
   {
     id: "38",
-    imageUrl: "assets/products/ClothingGRAL.jpeg",
+    imageUrl: require("../assets/products/ClothingGRAL.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "sweater",
@@ -308,7 +308,7 @@ const products = [
   },
   {
     id: "39",
-    imageUrl: "assets/products/ClothingOnlineStore.jpeg",
+    imageUrl: require("../assets/products/ClothingOnlineStore.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -316,7 +316,7 @@ const products = [
   },
   {
     id: "40",
-    imageUrl: "assets/products/CoatcoffeeXXXXL.jpeg",
+    imageUrl: require("../assets/products/CoatcoffeeXXXXL.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -324,7 +324,7 @@ const products = [
   },
   {
     id: "41",
-    imageUrl: "assets/products/ConvertibleCinched.jpeg",
+    imageUrl: require("../assets/products/ConvertibleCinched.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -332,7 +332,7 @@ const products = [
   },
   {
     id: "42",
-    imageUrl: "assets/products/COOFANDY.jpeg",
+    imageUrl: require("../assets/products/COOFANDY.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -340,7 +340,7 @@ const products = [
   },
   {
     id: "43",
-    imageUrl: "assets/products/CoofandyGrey.jpeg",
+    imageUrl: require("../assets/products/CoofandyGrey.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -348,7 +348,7 @@ const products = [
   },
   {
     id: "44",
-    imageUrl: "assets/products/Coofandys.jpeg",
+    imageUrl: require("../assets/products/Coofandys.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -356,7 +356,7 @@ const products = [
   },
   {
     id: "45",
-    imageUrl: "assets/products/CQRTop.jpeg",
+    imageUrl: require("../assets/products/CQRTop.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "jacket",
@@ -364,7 +364,7 @@ const products = [
   },
   {
     id: "46",
-    imageUrl: "assets/products/DarcChic.jpeg",
+    imageUrl: require("../assets/products/DarcChic.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -372,7 +372,7 @@ const products = [
   },
   {
     id: "47",
-    imageUrl: "assets/products/DarlingEaster.jpeg",
+    imageUrl: require("../assets/products/DarlingEaster.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -380,7 +380,7 @@ const products = [
   },
   {
     id: "48",
-    imageUrl: "assets/products/Daydance.jpeg",
+    imageUrl: require("../assets/products/Daydance.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -388,7 +388,7 @@ const products = [
   },
   {
     id: "49",
-    imageUrl: "assets/products/DJTCoat.jpeg",
+    imageUrl: require("../assets/products/DJTCoat.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -397,7 +397,7 @@ const products = [
 
   {
     id: "50",
-    imageUrl: "assets/products/Dresstells®.jpeg",
+    imageUrl: require("../assets/products/Dresstells®.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -405,7 +405,7 @@ const products = [
   },
   {
     id: "51",
-    imageUrl: "assets/products/DressyDaisy.jpeg",
+    imageUrl: require("../assets/products/DressyDaisy.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -413,7 +413,7 @@ const products = [
   },
   {
     id: "52",
-    imageUrl: "assets/products/ElasticWaists.jpeg",
+    imageUrl: require("../assets/products/ElasticWaists.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -421,7 +421,7 @@ const products = [
   },
   {
     id: "53",
-    imageUrl: "assets/products/ElegantL.jpeg",
+    imageUrl: require("../assets/products/ElegantL.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -429,7 +429,7 @@ const products = [
   },
   {
     id: "54",
-    imageUrl: "assets/products/ericdress.jpeg",
+    imageUrl: require("../assets/products/ericdress.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -437,7 +437,7 @@ const products = [
   },
   {
     id: "55",
-    imageUrl: "assets/products/ericdresscloth.jpeg",
+    imageUrl: require("../assets/products/ericdresscloth.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -445,7 +445,7 @@ const products = [
   },
   {
     id: "56",
-    imageUrl: "assets/products/Fashion.jpeg",
+    imageUrl: require("../assets/products/Fashion.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -453,7 +453,7 @@ const products = [
   },
   {
     id: "57",
-    imageUrl: "assets/products/FashionJackets.jpeg",
+    imageUrl: require("../assets/products/FashionJackets.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -461,7 +461,7 @@ const products = [
   },
   {
     id: "58",
-    imageUrl: "assets/products/FASHIOSizes.jpeg",
+    imageUrl: require("../assets/products/FASHIOSizes.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -469,7 +469,7 @@ const products = [
   },
   {
     id: "59",
-    imageUrl: "assets/products/fiftySearch.jpeg",
+    imageUrl: require("../assets/products/fiftySearch.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -477,7 +477,7 @@ const products = [
   },
   {
     id: "60",
-    imageUrl: "assets/products/FLATSEVEN.jpeg",
+    imageUrl: require("../assets/products/FLATSEVEN.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -485,7 +485,7 @@ const products = [
   },
   {
     id: "61",
-    imageUrl: "assets/products/FLATSEVE.jpeg",
+    imageUrl: require("../assets/products/FLATSEVE.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -494,7 +494,7 @@ const products = [
 
   {
     id: "62",
-    imageUrl: "assets/products/FlowerElegantCausal.jpeg",
+    imageUrl: require("../assets/products/FlowerElegantCausal.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "kids",
@@ -502,7 +502,7 @@ const products = [
   },
   {
     id: "63",
-    imageUrl: "assets/products/FlowerGirls.jpeg",
+    imageUrl: require("../assets/products/FlowerGirls.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "kids",
@@ -510,7 +510,7 @@ const products = [
   },
   {
     id: "64",
-    imageUrl: "assets/products/Frontwalk.jpeg",
+    imageUrl: require("../assets/products/Frontwalk.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -518,7 +518,7 @@ const products = [
   },
   {
     id: "65",
-    imageUrl: "assets/products/Gesean.jpeg",
+    imageUrl: require("../assets/products/Gesean.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "jacket",
@@ -526,7 +526,7 @@ const products = [
   },
   {
     id: "66",
-    imageUrl: "assets/products/GirlsAutumn.jpeg",
+    imageUrl: require("../assets/products/GirlsAutumn.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "coat",
@@ -534,7 +534,7 @@ const products = [
   },
   {
     id: "67",
-    imageUrl: "assets/products/GirlsDesigner.jpeg",
+    imageUrl: require("../assets/products/GirlsDesigner.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "kids",
@@ -542,7 +542,7 @@ const products = [
   },
   {
     id: "68",
-    imageUrl: "assets/products/Gothic_Punk.jpeg",
+    imageUrl: require("../assets/products/Gothic_Punk.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -550,7 +550,7 @@ const products = [
   },
   {
     id: "69",
-    imageUrl: "assets/products/GwenStefani.jpeg",
+    imageUrl: require("../assets/products/GwenStefani.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -558,7 +558,7 @@ const products = [
   },
   {
     id: "70",
-    imageUrl: "assets/products/H2HShirts.jpeg",
+    imageUrl: require("../assets/products/H2HShirts.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -566,7 +566,7 @@ const products = [
   },
   {
     id: "71",
-    imageUrl: "assets/products/HARDLANDy.jpeg",
+    imageUrl: require("../assets/products/HARDLANDy.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -574,7 +574,7 @@ const products = [
   },
   {
     id: "184",
-    imageUrl: "assets/products/HelikonCoyote.jpeg",
+    imageUrl: require("../assets/products/HelikonCoyote.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -582,7 +582,7 @@ const products = [
   },
   {
     id: "72",
-    imageUrl: "assets/products/Highwaist.jpeg",
+    imageUrl: require("../assets/products/Highwaist.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -590,7 +590,7 @@ const products = [
   },
   {
     id: "73",
-    imageUrl: "assets/products/HighWaist.jpeg",
+    imageUrl: require("../assets/products/HighWaist.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -598,7 +598,7 @@ const products = [
   },
   {
     id: "74",
-    imageUrl: "assets/products/homens.jpeg",
+    imageUrl: require("../assets/products/homens.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -606,7 +606,7 @@ const products = [
   },
   {
     id: "75",
-    imageUrl: "assets/products/HomrainWomen.jpeg",
+    imageUrl: require("../assets/products/HomrainWomen.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -614,7 +614,7 @@ const products = [
   },
   {
     id: "76",
-    imageUrl: "assets/products/Hotonthe.jpeg",
+    imageUrl: require("../assets/products/Hotonthe.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "jacket",
@@ -622,7 +622,7 @@ const products = [
   },
   {
     id: "77",
-    imageUrl: "assets/products/HotSale.jpeg",
+    imageUrl: require("../assets/products/HotSale.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -630,7 +630,7 @@ const products = [
   },
   {
     id: "78",
-    imageUrl: "assets/products/iiniimPetals.jpeg",
+    imageUrl: require("../assets/products/iiniimPetals.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -638,7 +638,7 @@ const products = [
   },
   {
     id: "79",
-    imageUrl: "assets/products/IVNIS.jpeg",
+    imageUrl: require("../assets/products/IVNIS.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -646,7 +646,7 @@ const products = [
   },
   {
     id: "80",
-    imageUrl: "assets/products/KateKasin.jpeg",
+    imageUrl: require("../assets/products/KateKasin.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -655,7 +655,7 @@ const products = [
 
   {
     id: "81",
-    imageUrl: "assets/products/KidsFlower.jpeg",
+    imageUrl: require("../assets/products/KidsFlower.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -663,7 +663,7 @@ const products = [
   },
   {
     id: "82",
-    imageUrl: "assets/products/KinderKouture.jpeg",
+    imageUrl: require("../assets/products/KinderKouture.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "kids",
@@ -671,7 +671,7 @@ const products = [
   },
   {
     id: "83",
-    imageUrl: "assets/products/kkboxly8.jpeg",
+    imageUrl: require("../assets/products/kkboxly8.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -679,7 +679,7 @@ const products = [
   },
   {
     id: "84",
-    imageUrl: "assets/products/Knot.jpeg",
+    imageUrl: require("../assets/products/Knot.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -687,7 +687,7 @@ const products = [
   },
   {
     id: "85",
-    imageUrl: "assets/products/ladyblackcoat.jpeg",
+    imageUrl: require("../assets/products/ladyblackcoat.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "coat",
@@ -695,7 +695,7 @@ const products = [
   },
   {
     id: "86",
-    imageUrl: "assets/products/ladylongcoat.jpeg",
+    imageUrl: require("../assets/products/ladylongcoat.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "coat",
@@ -703,7 +703,7 @@ const products = [
   },
   {
     id: "87",
-    imageUrl: "assets/products/ladyredsweats.jpeg",
+    imageUrl: require("../assets/products/ladyredsweats.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -711,7 +711,7 @@ const products = [
   },
   {
     id: "88",
-    imageUrl: "assets/products/ladysweats.jpeg",
+    imageUrl: require("../assets/products/ladysweats.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -719,7 +719,7 @@ const products = [
   },
   {
     id: "89",
-    imageUrl: "assets/products/leathercropjacket.jpeg",
+    imageUrl: require("../assets/products/leathercropjacket.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -727,7 +727,7 @@ const products = [
   },
   {
     id: "90",
-    imageUrl: "assets/products/lightgreen.jpeg",
+    imageUrl: require("../assets/products/lightgreen.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "coat",
@@ -735,7 +735,7 @@ const products = [
   },
   {
     id: "91",
-    imageUrl: "assets/products/LYXIOF.jpeg",
+    imageUrl: require("../assets/products/LYXIOF.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "kids",
@@ -743,7 +743,7 @@ const products = [
   },
   {
     id: "92",
-    imageUrl: "assets/products/Mascot.jpeg",
+    imageUrl: require("../assets/products/Mascot.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -751,7 +751,7 @@ const products = [
   },
   {
     id: "93",
-    imageUrl: "assets/products/MASCOT®INDUSTRY.jpeg",
+    imageUrl: require("../assets/products/MASCOT®INDUSTRY.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -760,7 +760,7 @@ const products = [
 
   {
     id: "94",
-    imageUrl: "assets/products/MascotAdvanced.jpeg",
+    imageUrl: require("../assets/products/MascotAdvanced.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -768,7 +768,7 @@ const products = [
   },
   {
     id: "95",
-    imageUrl: "assets/products/MascotBerkeley.jpeg",
+    imageUrl: require("../assets/products/MascotBerkeley.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -776,7 +776,7 @@ const products = [
   },
   {
     id: "96",
-    imageUrl: "assets/products/MascotRonda.jpeg",
+    imageUrl: require("../assets/products/MascotRonda.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -784,7 +784,7 @@ const products = [
   },
   {
     id: "97",
-    imageUrl: "assets/products/MascotTotana.jpeg",
+    imageUrl: require("../assets/products/MascotTotana.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -792,7 +792,7 @@ const products = [
   },
   {
     id: "98",
-    imageUrl: "assets/products/MenCargoShorts.jpeg",
+    imageUrl: require("../assets/products/MenCargoShorts.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -800,7 +800,7 @@ const products = [
   },
   {
     id: "99",
-    imageUrl: "assets/products/Mencargotd.jpeg",
+    imageUrl: require("../assets/products/Mencargotd.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -808,7 +808,7 @@ const products = [
   },
   {
     id: "100",
-    imageUrl: "assets/products/mencouat.jpeg",
+    imageUrl: require("../assets/products/mencouat.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "coat",
@@ -816,7 +816,7 @@ const products = [
   },
   {
     id: "101",
-    imageUrl: "assets/products/Meng.jpeg",
+    imageUrl: require("../assets/products/Meng.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "sweater",
@@ -824,7 +824,7 @@ const products = [
   },
   {
     id: "102",
-    imageUrl: "assets/products/MensDesigner.jpeg",
+    imageUrl: require("../assets/products/MensDesigner.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -832,7 +832,7 @@ const products = [
   },
   {
     id: "103",
-    imageUrl: "assets/products/menshirtsblack.jpeg",
+    imageUrl: require("../assets/products/menshirtsblack.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -840,7 +840,7 @@ const products = [
   },
   {
     id: "104",
-    imageUrl: "assets/products/MenSweatpant.jpeg",
+    imageUrl: require("../assets/products/MenSweatpant.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -848,7 +848,7 @@ const products = [
   },
   {
     id: "105",
-    imageUrl: "assets/products/mentrouser.jpeg",
+    imageUrl: require("../assets/products/mentrouser.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -856,7 +856,7 @@ const products = [
   },
   {
     id: "106",
-    imageUrl: "assets/products/MeshEmbroidery.jpeg",
+    imageUrl: require("../assets/products/MeshEmbroidery.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "kids",
@@ -864,7 +864,7 @@ const products = [
   },
   {
     id: "107",
-    imageUrl: "assets/products/MidWaist.jpeg",
+    imageUrl: require("../assets/products/MidWaist.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -872,7 +872,7 @@ const products = [
   },
   {
     id: "108",
-    imageUrl: "assets/products/Miusol®.jpeg",
+    imageUrl: require("../assets/products/Miusol®.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -880,7 +880,7 @@ const products = [
   },
   {
     id: "109",
-    imageUrl: "assets/products/MODERNO.jpeg",
+    imageUrl: require("../assets/products/MODERNO.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -888,7 +888,7 @@ const products = [
   },
   {
     id: "110",
-    imageUrl: "assets/products/MultiPocketShor.jpeg",
+    imageUrl: require("../assets/products/MultiPocketShor.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -896,7 +896,7 @@ const products = [
   },
   {
     id: "111",
-    imageUrl: "assets/products/NEW.jpeg",
+    imageUrl: require("../assets/products/NEW.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -904,7 +904,7 @@ const products = [
   },
   {
     id: "112",
-    imageUrl: "assets/products/NewInChildren.jpeg",
+    imageUrl: require("../assets/products/NewInChildren.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -912,7 +912,7 @@ const products = [
   },
   {
     id: "113",
-    imageUrl: "assets/products/NewMen.jpeg",
+    imageUrl: require("../assets/products/NewMen.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -920,7 +920,7 @@ const products = [
   },
   {
     id: "114",
-    imageUrl: "assets/products/NordstromOnline.jpeg",
+    imageUrl: require("../assets/products/NordstromOnline.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -928,7 +928,7 @@ const products = [
   },
   {
     id: "115",
-    imageUrl: "assets/products/Odzieżdamska.jpeg",
+    imageUrl: require("../assets/products/Odzieżdamska.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -936,7 +936,7 @@ const products = [
   },
   {
     id: "116",
-    imageUrl: "assets/products/OrcaJum.jpeg",
+    imageUrl: require("../assets/products/OrcaJum.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -944,7 +944,7 @@ const products = [
   },
   {
     id: "117",
-    imageUrl: "assets/products/OriginalBrand.jpeg",
+    imageUrl: require("../assets/products/OriginalBrand.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -952,7 +952,7 @@ const products = [
   },
   {
     id: "118",
-    imageUrl: "assets/products/OutfitIdeas.jpeg",
+    imageUrl: require("../assets/products/OutfitIdeas.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -961,7 +961,7 @@ const products = [
 
   {
     id: "119",
-    imageUrl: "assets/products/PatpatKid.jpeg",
+    imageUrl: require("../assets/products/PatpatKid.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "trouser",
@@ -969,7 +969,7 @@ const products = [
   },
   {
     id: "120",
-    imageUrl: "assets/products/Pinterest.jpeg",
+    imageUrl: require("../assets/products/Pinterest.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "jacket",
@@ -977,7 +977,7 @@ const products = [
   },
   {
     id: "121",
-    imageUrl: "assets/products/PlainDress.jpeg",
+    imageUrl: require("../assets/products/PlainDress.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -985,7 +985,7 @@ const products = [
   },
   {
     id: "122",
-    imageUrl: "assets/products/Plus.jpeg",
+    imageUrl: require("../assets/products/Plus.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -993,7 +993,7 @@ const products = [
   },
   {
     id: "123",
-    imageUrl: "assets/products/Plus6.jpeg",
+    imageUrl: require("../assets/products/Plus6.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "top",
@@ -1001,7 +1001,7 @@ const products = [
   },
   {
     id: "124",
-    imageUrl: "assets/products/POMUY.jpeg",
+    imageUrl: require("../assets/products/POMUY.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1009,7 +1009,7 @@ const products = [
   },
   {
     id: "125",
-    imageUrl: "assets/products/PrettyGuides.jpeg",
+    imageUrl: require("../assets/products/PrettyGuides.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -1017,7 +1017,7 @@ const products = [
   },
   {
     id: "126",
-    imageUrl: "assets/products/Ps.jpeg",
+    imageUrl: require("../assets/products/Ps.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1025,7 +1025,7 @@ const products = [
   },
   {
     id: "127",
-    imageUrl: "assets/products/purpledress.jpeg",
+    imageUrl: require("../assets/products/purpledress.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1033,7 +1033,7 @@ const products = [
   },
   {
     id: "128",
-    imageUrl: "assets/products/RareEditions.jpeg",
+    imageUrl: require("../assets/products/RareEditions.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -1041,7 +1041,7 @@ const products = [
   },
   {
     id: "129",
-    imageUrl: "assets/products/SageCotton.jpeg",
+    imageUrl: require("../assets/products/SageCotton.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -1049,7 +1049,7 @@ const products = [
   },
   {
     id: "130",
-    imageUrl: "assets/products/SewPanelShirt.jpeg",
+    imageUrl: require("../assets/products/SewPanelShirt.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -1057,7 +1057,7 @@ const products = [
   },
   {
     id: "131",
-    imageUrl: "assets/products/SHENHETops.jpeg",
+    imageUrl: require("../assets/products/SHENHETops.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -1065,7 +1065,7 @@ const products = [
   },
   {
     id: "132",
-    imageUrl: "assets/products/shirtblues.jpeg",
+    imageUrl: require("../assets/products/shirtblues.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -1073,7 +1073,7 @@ const products = [
   },
   {
     id: "133",
-    imageUrl: "assets/products/shirtone.jpeg",
+    imageUrl: require("../assets/products/shirtone.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -1081,7 +1081,7 @@ const products = [
   },
   {
     id: "134",
-    imageUrl: "assets/products/shirtshortkid.jpeg",
+    imageUrl: require("../assets/products/shirtshortkid.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "shirt",
@@ -1089,7 +1089,7 @@ const products = [
   },
   {
     id: "135",
-    imageUrl: "assets/products/Showblanc_.jpeg",
+    imageUrl: require("../assets/products/Showblanc_.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "coat",
@@ -1097,7 +1097,7 @@ const products = [
   },
   {
     id: "136",
-    imageUrl: "assets/products/SkirtQueenMallow.jpeg",
+    imageUrl: require("../assets/products/SkirtQueenMallow.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1105,7 +1105,7 @@ const products = [
   },
   {
     id: "137",
-    imageUrl: "assets/products/SkirtsSkirtPlazo.jpeg",
+    imageUrl: require("../assets/products/SkirtsSkirtPlazo.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1113,7 +1113,7 @@ const products = [
   },
   {
     id: "138",
-    imageUrl: "assets/products/Skylinewears.jpeg",
+    imageUrl: require("../assets/products/Skylinewears.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -1121,7 +1121,7 @@ const products = [
   },
   {
     id: "139",
-    imageUrl: "assets/products/SkySkirt.jpeg",
+    imageUrl: require("../assets/products/SkySkirt.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1129,7 +1129,7 @@ const products = [
   },
   {
     id: "140",
-    imageUrl: "assets/products/SolidColor.jpeg",
+    imageUrl: require("../assets/products/SolidColor.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1137,7 +1137,7 @@ const products = [
   },
   {
     id: "145",
-    imageUrl: "assets/products/SpottedHoodieL.jpeg",
+    imageUrl: require("../assets/products/SpottedHoodieL.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "jacket",
@@ -1145,7 +1145,7 @@ const products = [
   },
   {
     id: "146",
-    imageUrl: "assets/products/SpringAutumn.jpeg",
+    imageUrl: require("../assets/products/SpringAutumn.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -1153,7 +1153,7 @@ const products = [
   },
   {
     id: "147",
-    imageUrl: "assets/products/Streetwear88kg.jpeg",
+    imageUrl: require("../assets/products/Streetwear88kg.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "sweater",
@@ -1161,7 +1161,7 @@ const products = [
   },
   {
     id: "148",
-    imageUrl: "assets/products/StyleUniforms.jpeg",
+    imageUrl: require("../assets/products/StyleUniforms.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1169,7 +1169,7 @@ const products = [
   },
   {
     id: "149",
-    imageUrl: "assets/products/SweatshirtblueXXL.jpeg",
+    imageUrl: require("../assets/products/SweatshirtblueXXL.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "sweater",
@@ -1177,7 +1177,7 @@ const products = [
   },
   {
     id: "150",
-    imageUrl: "assets/products/TacConquistador.jpeg",
+    imageUrl: require("../assets/products/TacConquistador.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -1186,7 +1186,7 @@ const products = [
 
   {
     id: "151",
-    imageUrl: "assets/products/TFlowerGirls.jpeg",
+    imageUrl: require("../assets/products/TFlowerGirls.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -1194,7 +1194,7 @@ const products = [
   },
   {
     id: "152",
-    imageUrl: "assets/products/Thanth.jpeg",
+    imageUrl: require("../assets/products/Thanth.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1202,7 +1202,7 @@ const products = [
   },
   {
     id: "153",
-    imageUrl: "assets/products/TheLayering.jpeg",
+    imageUrl: require("../assets/products/TheLayering.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1210,7 +1210,7 @@ const products = [
   },
   {
     id: "154",
-    imageUrl: "assets/products/TheLeesJacket.jpeg",
+    imageUrl: require("../assets/products/TheLeesJacket.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -1218,7 +1218,7 @@ const products = [
   },
   {
     id: "155",
-    imageUrl: "assets/products/TheRoyalBaby.jpeg",
+    imageUrl: require("../assets/products/TheRoyalBaby.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -1226,7 +1226,7 @@ const products = [
   },
   {
     id: "156",
-    imageUrl: "assets/products/ThingsGive.jpeg",
+    imageUrl: require("../assets/products/ThingsGive.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "coat",
@@ -1234,7 +1234,7 @@ const products = [
   },
   {
     id: "157",
-    imageUrl: "assets/products/ToddlerBabyGirl.jpeg",
+    imageUrl: require("../assets/products/ToddlerBabyGirl.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "top",
@@ -1242,7 +1242,7 @@ const products = [
   },
   {
     id: "158",
-    imageUrl: "assets/products/TopdressWomen.jpeg",
+    imageUrl: require("../assets/products/TopdressWomen.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1250,7 +1250,7 @@ const products = [
   },
   {
     id: "159",
-    imageUrl: "assets/products/Trend_Oxblood.jpeg",
+    imageUrl: require("../assets/products/Trend_Oxblood.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1258,7 +1258,7 @@ const products = [
   },
   {
     id: "160",
-    imageUrl: "assets/products/TrendyWomens.jpeg",
+    imageUrl: require("../assets/products/TrendyWomens.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "sweater",
@@ -1266,7 +1266,7 @@ const products = [
   },
   {
     id: "161",
-    imageUrl: "assets/products/TRGPSG.jpeg",
+    imageUrl: require("../assets/products/TRGPSG.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -1274,7 +1274,7 @@ const products = [
   },
   {
     id: "162",
-    imageUrl: "assets/products/trouserss.jpeg",
+    imageUrl: require("../assets/products/trouserss.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -1282,7 +1282,7 @@ const products = [
   },
   {
     id: "163",
-    imageUrl: "assets/products/trouserwomen.jpeg",
+    imageUrl: require("../assets/products/trouserwomen.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -1290,7 +1290,7 @@ const products = [
   },
   {
     id: "164",
-    imageUrl: "assets/products/TWO.jpeg",
+    imageUrl: require("../assets/products/TWO.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "trouser",
@@ -1298,7 +1298,7 @@ const products = [
   },
   {
     id: "165",
-    imageUrl: "assets/products/Urban.jpeg",
+    imageUrl: require("../assets/products/Urban.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1306,7 +1306,7 @@ const products = [
   },
   {
     id: "166",
-    imageUrl: "assets/products/Victorian.jpeg",
+    imageUrl: require("../assets/products/Victorian.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1314,7 +1314,7 @@ const products = [
   },
   {
     id: "167",
-    imageUrl: "assets/products/VictorianCostumes.jpeg",
+    imageUrl: require("../assets/products/VictorianCostumes.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1322,7 +1322,7 @@ const products = [
   },
   {
     id: "168",
-    imageUrl: "assets/products/VintageDress.jpeg",
+    imageUrl: require("../assets/products/VintageDress.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1330,7 +1330,7 @@ const products = [
   },
   {
     id: "169",
-    imageUrl: "assets/products/VintagePleated.jpeg",
+    imageUrl: require("../assets/products/VintagePleated.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1338,7 +1338,7 @@ const products = [
   },
   {
     id: "170",
-    imageUrl: "assets/products/Waysto.jpeg",
+    imageUrl: require("../assets/products/Waysto.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1346,7 +1346,7 @@ const products = [
   },
   {
     id: "171",
-    imageUrl: "assets/products/Wedtrend.jpeg",
+    imageUrl: require("../assets/products/Wedtrend.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1354,7 +1354,7 @@ const products = [
   },
   {
     id: "172",
-    imageUrl: "assets/products/WomenBasic.jpeg",
+    imageUrl: require("../assets/products/WomenBasic.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1362,7 +1362,7 @@ const products = [
   },
   {
     id: "173",
-    imageUrl: "assets/products/WomenAfrican.jpeg",
+    imageUrl: require("../assets/products/WomenAfrican.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "skirt",
@@ -1370,7 +1370,7 @@ const products = [
   },
   {
     id: "174",
-    imageUrl: "assets/products/WomenNeutralt.jpeg",
+    imageUrl: require("../assets/products/WomenNeutralt.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "trouser",
@@ -1378,7 +1378,7 @@ const products = [
   },
   {
     id: "175",
-    imageUrl: "assets/products/womesdresswe.jpeg",
+    imageUrl: require("../assets/products/womesdresswe.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1386,7 +1386,7 @@ const products = [
   },
   {
     id: "176",
-    imageUrl: "assets/products/GwenStefani.jpeg",
+    imageUrl: require("../assets/products/GwenStefani.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "female",
     prodType: "dress",
@@ -1394,7 +1394,7 @@ const products = [
   },
   {
     id: "177",
-    imageUrl: "assets/products/Xituodai.jpeg",
+    imageUrl: require("../assets/products/Xituodai.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "short",
@@ -1402,7 +1402,7 @@ const products = [
   },
   {
     id: "178",
-    imageUrl: "assets/products/YinggeliLittle.jpeg",
+    imageUrl: require("../assets/products/YinggeliLittle.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "dress",
@@ -1410,7 +1410,7 @@ const products = [
   },
   {
     id: "179",
-    imageUrl: "assets/products/YYABaby.jpeg",
+    imageUrl: require("../assets/products/YYABaby.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "kids",
     prodType: "short",
@@ -1418,7 +1418,7 @@ const products = [
   },
   {
     id: "180",
-    imageUrl: "assets/products/zimtaylor.jpeg",
+    imageUrl: require("../assets/products/zimtaylor.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "shirt",
@@ -1427,7 +1427,7 @@ const products = [
 
   {
     id: "181",
-    imageUrl: "assets/products/ZSHOWVest.jpeg",
+    imageUrl: require("../assets/products/ZSHOWVest.jpeg"),
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
     prodType: "jacket",
