@@ -2,12 +2,18 @@ import { StyleSheet, Text, View, TouchableOpacity, Image } from "react-native";
 import React from "react";
 import { AntDesign } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 
 const Navbar = () => {
+  const navigation = useNavigation();
+
+  const handleGoBack = () =>{
+    navigation.goBack()
+  }
   return (
     <View style={styles.statusBar}>
       <View style={styles.nav}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={handleGoBack}>
           <AntDesign name="arrowleft" size={24} color="black" />
         </TouchableOpacity>
         <Text style={styles.navTitle}>Special Offers</Text>

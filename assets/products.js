@@ -573,7 +573,7 @@ const products = [
     price: "$350",
   },
   {
-    id: "71",
+    id: "184",
     imageUrl: "assets/products/HelikonCoyote.jpeg",
     description: "Praesent mollis viverra odio, sed iaculis sem molestie non.",
     prodGroup: "men",
@@ -1434,3 +1434,4 @@ const products = [
     price: "$430",
   },
 ];
+export default products;

@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, KeyboardAvoidingView } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Entypo } from "@expo/vector-icons";
@@ -53,46 +53,54 @@ const BottomNav = () => {
   };
 
   return (
-    <Tab.Navigator
-      initialRouteName="Home"
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ focused }) => getIcon(route, focused),
-        tabBarActiveTintColor: "black",
-        headerShown: false,
-      })}
+    <KeyboardAvoidingView
+      style={styles.container}
     >
-      <Tab.Screen
-        name="Home"
-        component={Home}
-        options={{
-          tabBarLabel: "Home",
-        }}
-      />
-      <Tab.Screen
-        name="Cart"
-        component={Cart}
-        options={{
-          tabBarLabel: "Cart",
-        }}
-      />
-      <Tab.Screen
-        name="Liked"
-        component={Liked}
-        options={{
-          tabBarLabel: "Likes",
-        }}
-      />
-      <Tab.Screen
-        name="Account"
-        component={Account}
-        options={{
-          tabBarLabel: "Account",
-        }}
-      />
-    </Tab.Navigator>
+      <Tab.Navigator
+        initialRouteName="Home"
+        screenOptions={({ route }) => ({
+          tabBarIcon: ({ focused }) => getIcon(route, focused),
+          tabBarActiveTintColor: "black",
+          headerShown: false,
+        })}
+      >
+        <Tab.Screen
+          name="Home"
+          component={Home}
+          options={{
+            tabBarLabel: "Home",
+          }}
+        />
+        <Tab.Screen
+          name="Cart"
+          component={Cart}
+          options={{
+            tabBarLabel: "Cart",
+          }}
+        />
+        <Tab.Screen
+          name="Liked"
+          component={Liked}
+          options={{
+            tabBarLabel: "Likes",
+          }}
+        />
+        <Tab.Screen
+          name="Account"
+          component={Account}
+          options={{
+            tabBarLabel: "Account",
+          }}
+        />
+      </Tab.Navigator>
+    </KeyboardAvoidingView>
   );
 };
 
 export default BottomNav;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container:{
+    flex:1
+  }
+});
