@@ -32,6 +32,10 @@ const Signup = () => {
     navigation.navigate("Auth")
   }
 
+  const handleSignIn = () =>{
+    navigation.navigate("Nav")
+  }
+
   const { width } = Dimensions.get("window");
   const buttonWidth = width * 0.8;
   return (
@@ -82,7 +86,7 @@ const Signup = () => {
         <Text style={styles.rememberMeText}>Remember me</Text>
       </View>
 
-      <TouchableOpacity style={[styles.signupButton, { width: buttonWidth }]}>
+      <TouchableOpacity style={[styles.signupButton, { width: buttonWidth }]} onPress={handleSignIn}>
         <Text style={styles.signupButtonText}>Sign in</Text>
       </TouchableOpacity>
 
