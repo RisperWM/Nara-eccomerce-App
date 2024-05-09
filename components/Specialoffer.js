@@ -24,8 +24,8 @@ export default Specialoffer;
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#d4d4d4",
-    height: 165,
-    width: "90%",
+    height: 158,
+    width: "93%",
     borderRadius: 15,
     margin: 5,
     display: "flex",
@@ -34,8 +34,7 @@ const styles = StyleSheet.create({
     alignItems:"center"
   },
   offerText: {
-    width:"55%",
-    marginLeft:10
+    width:"53%",
   },
   percentage: {
     fontSize: 29,
@@ -56,7 +55,7 @@ const styles = StyleSheet.create({
     marginBottom:5
   },
   images:{
-    height:150,
+    height:140,
     width:110,
   }
 });
