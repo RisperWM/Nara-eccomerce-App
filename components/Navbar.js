@@ -4,7 +4,7 @@ import { AntDesign } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
-const Navbar = () => {
+const Navbar = ({title}) => {
   const navigation = useNavigation();
 
   const handleGoBack = () =>{
@@ -16,7 +16,7 @@ const Navbar = () => {
         <TouchableOpacity onPress={handleGoBack}>
           <AntDesign name="arrowleft" size={24} color="black" />
         </TouchableOpacity>
-        <Text style={styles.navTitle}>Special Offers</Text>
+        <Text style={styles.navTitle}>{title}</Text>
       </View>
       <TouchableOpacity style={styles.account}>
         <Image />

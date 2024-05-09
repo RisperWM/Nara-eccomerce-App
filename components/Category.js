@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     categories:{
         justifyContent:"center",
         alignItems:"center",
-        backgroundColor:"#d4d4d4",
+        backgroundColor:"#eef0f2",
         width:54,
         height:54,
         borderRadius:50

@@ -23,7 +23,7 @@ export default Specialoffer;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#d4d4d4",
+    backgroundColor: "#eef0f2",
     height: 158,
     width: "93%",
     borderRadius: 15,

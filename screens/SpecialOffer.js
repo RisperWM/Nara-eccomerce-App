@@ -8,7 +8,7 @@ const SpecialOffer = () => {
   return (
     <View style={styles.container}>
       <SafeAreaView style={styles.subContainer}>
-        <Navbar/>        
+        <Navbar title="Special Offers"/>        
         <View style={styles.offers}>
           <Specialoffer
             percentage="30%"

@@ -42,7 +42,7 @@ const Home = () => {
           />
         </View>
         <Category/>
-        <PopularProd/>
+        <PopularProd showHeader={true}/>
       </SafeAreaView>
     </ScrollView>
   );
